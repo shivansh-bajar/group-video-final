@@ -1,9 +1,9 @@
 require('dotenv').config();
-const express = require("express");
-const http = require("http");
+import express from "express";
+import { createServer } from "http";
 const app = express();
-const server = http.createServer(app);
-const socket = require("socket.io");
+const server = createServer(app);
+import socket from "socket.io";
 const io = socket(server);
 
 const users = {};

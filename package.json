@@ -9,7 +9,18 @@
     "socket.io": "^2.3.0"
   },
   "scripts": {
-    "start": "PROD=true node server.js",
+    "start": "node server.js",
     "postinstall": "cd ./client && yarn"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivansh-bajar/group-video-final.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/shivansh-bajar/group-video-final/issues"
+  },
+  "homepage": "https://github.com/shivansh-bajar/group-video-final#readme",
+  "description": ""
 }
